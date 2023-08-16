@@ -25,9 +25,9 @@
 
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
-<div id="page" class="mudule--header">
+<div id="page" class="module--header">
 
-	<header class="">
+	<header class="module--header__header">
 		<h1 class="module--header__logo">YourAi ChatBot</h1>
 		<nav id="site-navigation" class="module--header__navigation">
 			<ul>

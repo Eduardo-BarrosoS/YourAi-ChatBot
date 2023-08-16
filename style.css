@@ -76,8 +76,13 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 --------------------------------------------- */
 /* Alignments
 --------------------------------------------- */
+:root {
+  box-sizing: border-box;
+}
+
 body {
   background: #0b0b0f;
+  margin: 0;
 }
 
 * {
@@ -94,21 +99,16 @@ h1 {
 }
 
 .module--header {
-  width: 100%;
-  height: 9.125rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  max-width: 100%;
+  padding: 2.5rem 3.56rem 3.56rem 3.56rem;
 }
 .module--header header {
-  padding: 2.5rem 3.56rem 3.56rem 3.56rem;
   display: flex;
-  flex: 1;
   justify-content: space-between;
   align-items: center;
 }
 .module--header__logo {
-  background: linear-gradient(10deg, #30cfd0 0%, #330867 100%);
+  background: linear-gradient(90deg, #30cfd0 0%, #330867 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -129,6 +129,10 @@ h1 {
   font-size: 1.5625rem;
   font-weight: 600;
   line-height: 100%; /* 1.5625rem */
+}
+
+.page-tamplate-home .module--hero {
+  color: beige;
 }
 
 /*# sourceMappingURL=style.css.map */

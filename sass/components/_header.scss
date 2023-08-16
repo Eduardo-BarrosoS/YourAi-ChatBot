@@ -1,16 +1,11 @@
-$logo-color: linear-gradient(10deg, #30cfd0 0%, #330867 100%);
+$logo-color: linear-gradient(90deg, #30cfd0 0%, #330867 100%);
 
 .module--header {
-  width: 100%;
-  height: 9.125rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  max-width: 100%;
+  padding: 2.5rem 3.56rem 3.56rem 3.56rem;
 
   header {
-    padding: 2.5rem 3.56rem 3.56rem 3.56rem;
     display: flex;
-    flex: 1;
     justify-content: space-between;
     align-items: center;
   }
