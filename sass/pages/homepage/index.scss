@@ -1,1 +1,4 @@
-@import "hero";
+.page-tamplate-home {
+  color: $color__black-black-60;
+  @import "hero";
+}
